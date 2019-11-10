@@ -1,68 +1,88 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Fetch 'n Slide
+Fetch 'n Slide is a tool to practice group economics. The application allows for consumers to immediately identify black owned businesses in their vicinity (or search another area on the map); with the goal of growing the community's economy.
 
-## Available Scripts
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and license info here --->
+![Github License](https://img.shields.io/github/license/tdotholla/mobb)
+![Node Version](https://img.shields.io/node/v/canary)
+![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fwww.mobb.biz)
 
-In the project directory, you can run:
+![GitHub repo size](https://img.shields.io/github/repo-size/tdotholla/mobb)
+![Github code size](https://img.shields.io/github/languages/code-size/tdotholla/mobb)
+![Github Languages](https://img.shields.io/github/languages/count/tdotholla/mobb)
+![Github Top Language](https://img.shields.io/github/languages/top/tdotholla/mobb)
 
-### `npm start`
+![GitHub Issues](https://img.shields.io/github/issues-raw/tdotholla/mobb)
+![GitHub contributors](https://img.shields.io/github/contributors/tdotholla/mobb)
+![Github Last Commit](https://img.shields.io/github/last-commit/tdotholla/mobb)
+<!--
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Github Commit Activity](https://img.shields.io/github/commit-activity/m/tdotholla/mobb)
+![GitHub stars](https://img.shields.io/github/stars/tdotholla/mobb?style=social)
+![GitHub forks](https://img.shields.io/github/forks/tdotholla/mobb?style=social)
+![Github Manifest Version](https://img.shields.io/github/manifest-json/v/tdotholla/mobb)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+-->
 
-### `npm test`
+**_Visit [MOBB.biz](https://mobb.biz)_**
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Prerequisites
 
-### `npm run build`
+Before you begin, ensure you have met the following requirements:
+* You have installed the latest version of `node`, and `yarn`.
+* You have a `<Windows/Linux/Mac>` machine. (I have not tested on Linux, but should work fine)
+* You have read [SUPPORT.md](SUPPORT.md).
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React.js ([Create-React-App](https://github.com/facebook/create-react-app))
+- Material-UI
+- Google Firebase
+- Google Maps
+- Now Deployment
 
-### `npm run eject`
+**_Documentation links can be found in [SUPPORT](SUPPORT.md)_**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+First off, thank you for considering contributing to the MOBB. It’s people like you that make the MOBB such a great tool.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. [Fork](https://github.com/tdotholla/MOBB.git) this repo
+2. Create a branch: `git checkout -b <branch_name>` (feature? bug?).
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the [pull request](). **(Dont forget to [test!]())**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contributors
 
-## Learn More
+Thanks to the following people who have contributed to this project:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* [@DevCollectiv](https://github.com/DevCollectiv) 📖💻🤔⚠️
+* [@tmanundercover](https://github.com/tmanundercover) 🐛💻🤔👀⚠️
+* [@tdblackston0](https://github.com/tdblackston0) 🐛🤔👀⚠️
+* [@ludakhris](https://github.com/ludakhris) 💬🐛💻🤔👀⚠️
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Licenses
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Content is released under [Mozilla Public License Version 2.0](). See [LICENSE.md](LICENSE.MD) for complete details, including attribution guidelines, contribution terms, and software and third-party licenses and permissions.
 
-### Analyzing the Bundle Size
+### Roadmap as user stories
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [x] _As an end-user, I would like to see the locations of black owned businesses near me, on a map_
+- [ ] _I would like to see the one closest business to me, at all times_
+- [x] _I would like to see details of the busineses shown on the map_
+- [ ] _I would like to become a registered user_
+- [ ] _I would like to get directions to the business I am viewing_
+- [ ] _As a registered user, I would like to add a business to the map_
+- [ ] _As a registered user, I would like to modify business I am viewing_
+- [ ] _The map and business details should be current_
 
-### Making a Progressive Web App
+### Branches:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Try to name branches in a descriptive way, `master`, `ft-<featureName>`, `fix-<fixName>`, etc...
+**No pull requests will be merged into `master` branch.**
 
-### Advanced Configuration
+### Resources:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Github Contribution setup](https://help.github.com/en/github/building-a-strong-community/setting-up-your-project-for-healthy-contributions)
